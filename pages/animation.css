@@ -1,0 +1,26 @@
+:root {
+  --dark: #374151;
+  --darker: #1f2937;
+  --darkest: #111827;
+  --grey: #6b7280;
+  --pink: #ec4899;
+  --purple: #8b5cf6;
+  --light: #eee;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira sans", sans-serif;
+}
+
+.banner {
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  /* background-color: var(--darker); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(img/animation.jpg);
+  background-size: cover;
+  background-position: center;
+}

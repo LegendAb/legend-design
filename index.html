@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legend Website</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <div class="banner">
+
+        <header class="header">
+            <div class="navbar">
+
+                <!-- <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label> -->
+
+                <img src="images/logo1.png" class="logo">
+                <ul id="menuList">
+                    <li><a href="pages/web-dev.html">Web Dev.</a></li>
+                    <li><a href="pages/mobile-app.html">Mobile App Dev.</a></li>
+                    <li><a href="pages/graphic-design.html">Graphic Design</a></li>
+                    <li><a href="pages/animation.html">Animation</a></li>
+                    <li><a href="pages/contact.html">Contact Us</a></li>
+                    <li><a href="pages/about.html">About</a></li>
+                </ul>
+                <img src="images/clipart365828.png" class="menu-icon"
+                onclick="togglemenu()">
+            </div>
+        </header>
+
+        <div class="hr">
+           <hr>
+        </div>
+
+        <div class="headingText">
+            <h1>Welcome to Legend Design</h1>
+            <p>
+                The right place for your <br> Graphic Designs, 
+                Web Development, Mobile App. Development & Animation
+            </p>
+        </div>
+
+        <div id="slider">
+            <figure>
+                <img src="images/Legend emb0000.jpg">
+                <img src="images/Legend Design0000.jpg">
+                <img src="images/Legend emb0000.jpg">
+                <img src="images/computer-mockup0000.jpg">
+                <img src="images/Legend Design0000.jpg">
+            </figure>
+        </div>
+
+        <div class="bodyContent">
+            <h2>
+                The best place to get <br> your work done
+            </h2>
+            <a href="pages/about.html">
+                <button type="button"><span></span> find out more...</button>
+            </a>
+        </div>
+        
+        <br>
+
+        <div class="feature">
+            <h3>Features Design...</h3>
+        </div>
+
+        <div class="images">
+            <ul>
+                <li><img src="images/Legend Flyer.jpg" id="image1"></li>
+                <li><img src="images/Freelance marketing.jpg" id="image2"></li>
+                <li><img src="images/let your link make you money.jpg" id="image3"></li>
+                <li><img src="images/SIB COLLECTION.jpg" id="image4"></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="socialMedia">
+            <ul>
+                <li><a href="https://wa.me/message/R2MO2P5BJDYFH1" target="blank"><img src="images/social-media/whatsapp.png" id="social1"></a></li>
+                <li><a href="https://twitter.com/LegendDesign2?t=KklWXBExGfQdro5JnbV9jw&s=08" target="blank"><img src="images/social-media/twiter.png" id="social2"></a></li>
+                <li><a href="https://www.facebook.com/Johnson.creg" target="blank"><img src="images/social-media/facebook.png" id="social3"></a></li>
+                <li><a href="https://www.instagram.com/legend_graphic_de?r=nametag" target="blank"><img src="images/social-media/instagram.png" id="social4"></a></li>
+            </ul>
+        </div>
+        <div class="footerP">
+            <p>Copyright &copy 2022 Legend Design</p>
+        </div>
+        
+    </footer>
+
+    <script>
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px"
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>

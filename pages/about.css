@@ -1,0 +1,142 @@
+:root {
+  --dark: #374151;
+  --darker: #1f2937;
+  --darkest: #111827;
+  --grey: #6b7280;
+  --pink: #ec4899;
+  --purple: #8b5cf6;
+  --light: #eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira sans", sans-serif;
+  box-sizing: border-box;
+}
+
+/* .banner {
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url(img/desk2.png);
+  background-size: cover;
+  background-position: center;
+} */
+
+body {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--darker);
+  color: #fff;
+}
+
+.about-section {
+  background: url(img/Legend\ emb0000.jpg) no-repeat left;
+  background-size: 70%;
+  background-color: var(--darker);
+  overflow: hidden;
+  padding: 100px 0;
+  margin-top: 60px;
+}
+
+.inner-container {
+  width: 55%;
+  float: right;
+  background-color: var(--darker);
+  padding: 150px;
+}
+
+.inner-container h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  background-image: linear-gradient(to left, gold, var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border {
+  height: 2px;
+  width: 150px;
+  background-color: gold;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 7px;
+  word-spacing: normal;
+}
+
+#motto {
+  text-align: right;
+  font-family: comic;
+  font-style: italic;
+}
+
+button {
+  border: none;
+  padding: 8px 15px;
+  background-image: linear-gradient(to left, gold, var(--purple));
+  color: #fff;
+  border-radius: 6px;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .inner-container {
+    padding: 80px;
+  }
+}
+
+@media screen and(max-width:1000px) {
+  .about-section {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+
+  .inner-container {
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  .about-section {
+    padding: 0;
+  }
+
+  .inner-container {
+    padding: 60px;
+  }
+} */
+
+@media only screen and (max-width: 700px) {
+  .about-section {
+    background-size: 75%;
+    /* margin-top: 150px; */
+  }
+
+  .inner-container {
+    width: 65%;
+    padding: 5px;
+  }
+
+  .about-section {
+    padding: 8px;
+  }
+
+  .inner-container h1 {
+    font-size: 25px;
+  }
+  .border {
+    width: 125px;
+  }
+  p {
+    font-size: 14px;
+  }
+}

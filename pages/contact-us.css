@@ -1,0 +1,213 @@
+:root {
+  --dark: #374151;
+  --darker: #1f2937;
+  --darkest: #111827;
+  --grey: #6b7280;
+  --pink: #ec4899;
+  --purple: #8b5cf6;
+  --light: #eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  /* background-color: var(--darker); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(img/contact-us.jpg);
+  background-size: cover;
+  background-position: center;
+}
+hr {
+  width: 90%;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(to right, gold, var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 30px;
+  font-family: comic;
+}
+
+.contact-items {
+  display: flex;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.customer-care,
+.write-us,
+.sales-market {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28%;
+  margin: 30px auto;
+  padding: 35px 15px;
+  border-radius: 15px;
+  text-align: center;
+  min-width: 250px;
+}
+.customer-care {
+  height: 250px;
+  box-shadow: 0 15px 15px green;
+  border: 1px solid green;
+}
+.write-us {
+  height: 250px;
+  box-shadow: 0 15px 15px red;
+  border: 1px solid red;
+}
+.sales-market {
+  height: 250px;
+  box-shadow: 0 15px 15px blue;
+  border: 1px solid blue;
+}
+p {
+  font-size: 18px;
+  margin: 15px;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 17px;
+  border-radius: 25px;
+  border: none;
+  margin: 15px auto;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+button:hover {
+  color: gray;
+}
+#cust-care {
+  background: green;
+
+  box-shadow: 0 0 5px black;
+}
+#write {
+  background: rgb(187, 15, 15);
+
+  box-shadow: 0 0 5px black;
+}
+#sales {
+  background: blue;
+  box-shadow: 0 0 5px black;
+}
+a {
+  font-size: 16px;
+}
+.customer-care a {
+  color: green;
+  text-shadow: 0 0 2px rgba(73, 129, 80, 0.637);
+}
+.sales-market a {
+  color: blue;
+  text-shadow: 0 0 2px rgba(76, 62, 158, 0.637);
+}
+.contact-us {
+  text-align: center;
+  font-size: 18px;
+  margin: 15px;
+}
+
+.footer {
+  width: 100%;
+  background: var(--darkest);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  align-content: center;
+}
+
+.social ul li {
+  list-style: none;
+  display: inline;
+  margin: 20px;
+  position: relative;
+}
+#social1 {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+#social2 {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+#social3 {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+#social4 {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  .customer-care,
+  .write-us,
+  .sales-market {
+    min-width: 150px;
+    margin: 7px;
+  }
+  .customer-care {
+    height: 190px;
+    margin-bottom: 20px;
+  }
+  .write-us {
+    height: 190px;
+    margin-bottom: 20px;
+  }
+  .sales-market {
+    height: 190px;
+    margin-left: 100px;
+  }
+  p {
+    font-size: 13px;
+    margin: 15px;
+    margin-top: 15px;
+    line-height: 20px;
+  }
+
+  button {
+    font-size: 13px;
+  }
+  .footer {
+    width: 108%;
+  }
+}
