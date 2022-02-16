@@ -320,17 +320,20 @@ button:hover {
     width: 80%;
   }
   #image1 {
-    width: 190px;
+    width: 180px;
     margin-bottom: 10px;
   }
   #image2 {
-    width: 190px;
+    width: 180px;
     margin-bottom: 10px;
   }
   #image3 {
-    width: 190px;
+    width: 180px;
   }
   #image4 {
-    width: 190px;
+    width: 180px;
+  }
+  .socialMedia ul li {
+    margin: 20px;
   }
 }
