@@ -278,8 +278,9 @@ button:hover {
     background: var(--darkest);
     position: absolute;
     top: 100px;
-    right: 0;
+    right: -80px;
     z-index: 2;
+    text-align: right;
   }
   .navbar ul li {
     display: block;
@@ -302,6 +303,7 @@ button:hover {
   .logo {
     width: 350px;
     height: 60px;
+    margin-left: -10px;
   }
 
   .banner {
@@ -319,19 +321,22 @@ button:hover {
   .bodyContent {
     width: 80%;
   }
+  .images ul li {
+    margin: 12px;
+  }
   #image1 {
-    width: 180px;
+    width: 170px;
     margin-bottom: 10px;
   }
   #image2 {
-    width: 180px;
+    width: 170px;
     margin-bottom: 10px;
   }
   #image3 {
-    width: 180px;
+    width: 170px;
   }
   #image4 {
-    width: 180px;
+    width: 170px;
   }
   .socialMedia ul li {
     margin: 20px;

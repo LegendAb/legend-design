@@ -179,33 +179,40 @@ a {
   h2 {
     font-size: 15px;
   }
+  h3 {
+    font-size: 18px;
+    margin-top: -10px;
+  }
   .customer-care,
   .write-us,
   .sales-market {
-    min-width: 150px;
-    margin: 7px;
+    min-width: 130px;
+    margin: 8px;
   }
   .customer-care {
-    height: 190px;
-    margin-bottom: 20px;
+    height: 180px;
+    margin-bottom: 50px;
   }
   .write-us {
-    height: 190px;
-    margin-bottom: 20px;
+    height: 180px;
+    margin-bottom: 50px;
   }
   .sales-market {
-    height: 190px;
+    height: 180px;
     margin-left: 100px;
   }
   p {
     font-size: 13px;
     margin: 15px;
-    margin-top: 15px;
-    line-height: 20px;
+    margin-top: 10px;
+    line-height: 18px;
   }
-
+  a {
+    font-size: 15px;
+    margin-top: -10px;
+  }
   button {
-    font-size: 13px;
+    font-size: 12px;
   }
   .footer {
     width: 108%;

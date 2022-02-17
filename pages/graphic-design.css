@@ -121,7 +121,7 @@ button:hover {
     font-size: 27px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 15px;
   }
   .col1,
   .col2,
@@ -142,8 +142,8 @@ button:hover {
     margin-left: 100px;
   }
   p {
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 12px;
+    margin-top: 15px;
   }
   button {
     font-size: 13px;
