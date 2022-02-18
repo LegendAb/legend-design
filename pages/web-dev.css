@@ -129,28 +129,29 @@ button:hover {
     margin-bottom: -10px;
   }
   h2 {
-    font-size: 15px;
+    font-size: 14px;
   }
   .col1,
   .col2,
   .col3 {
-    min-width: 145px;
+    /* min-width: 145px; */
     margin: 5px;
+    min-width: 100%;
   }
   .col1 {
-    height: 180px;
-    margin-bottom: 20px;
+    /* height: 180px; */
+    height: 100%;
+    margin-bottom: 30px;
   }
   .col2 {
-    height: 180px;
-    margin-bottom: 20px;
+    height: 100%;
+    margin-bottom: 30px;
   }
   .col3 {
-    height: 180px;
-    margin-left: 90px;
+    height: 100%;
   }
   p {
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 15px;
   }
   button {

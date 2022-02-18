@@ -126,23 +126,24 @@ button:hover {
   .col1,
   .col2,
   .col3 {
-    min-width: 160px;
-    margin: 7px;
+    /* min-width: 145px; */
+    margin: 5px;
+    min-width: 100%;
   }
   .col1 {
-    height: 200px;
-    margin-bottom: 20px;
+    /* height: 180px; */
+    height: 100%;
+    margin-bottom: 30px;
   }
   .col2 {
-    height: 200px;
-    margin-bottom: 20px;
+    height: 100%;
+    margin-bottom: 30px;
   }
   .col3 {
-    height: 200px;
-    margin-left: 100px;
+    height: 100%;
   }
   p {
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 15px;
   }
   button {

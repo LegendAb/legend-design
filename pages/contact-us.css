@@ -49,6 +49,7 @@ h2 {
   font-weight: bold;
   line-height: 30px;
   font-family: comic;
+  text-align: center;
 }
 
 .contact-items {
@@ -178,6 +179,7 @@ a {
   }
   h2 {
     font-size: 15px;
+    text-align: center;
   }
   h3 {
     font-size: 18px;
@@ -186,33 +188,34 @@ a {
   .customer-care,
   .write-us,
   .sales-market {
-    min-width: 130px;
+    /* min-width: 130px; */
+    min-width: 90%;
     margin: 8px;
   }
   .customer-care {
-    height: 180px;
-    margin-bottom: 50px;
+    height: 100%;
+    margin-bottom: 20px;
   }
   .write-us {
-    height: 180px;
-    margin-bottom: 50px;
+    /* height: 180px; */
+    height: 100%;
+    margin-bottom: 25px;
   }
   .sales-market {
-    height: 180px;
-    margin-left: 100px;
+    height: 100%;
+    /* margin-left: 100px; */
   }
   p {
-    font-size: 13px;
+    font-size: 15px;
     margin: 15px;
     margin-top: 10px;
-    line-height: 18px;
+    line-height: 20px;
   }
   a {
-    font-size: 15px;
-    margin-top: -10px;
+    font-size: 18px;
   }
   button {
-    font-size: 12px;
+    font-size: 17px;
   }
   .footer {
     width: 108%;
