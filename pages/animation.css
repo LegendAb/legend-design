@@ -11,16 +11,168 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Fira sans", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
-.banner {
+.container {
   width: 100%;
   min-height: 100vh;
   color: #fff;
-  /* background-color: var(--darker); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url(img/animation.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url(img/drawing-paper-artist.jpg);
   background-size: cover;
   background-position: center;
+}
+
+h1 {
+  font-size: 130px;
+  font-weight: bolder;
+  margin-left: 50px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(img/3472.jpg);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+.list-items ul li {
+  list-style: none;
+  margin: 0 10px;
+  margin-left: 15px;
+  font-size: 30px;
+  position: relative;
+  margin-top: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.list-items ul li a {
+  text-decoration: none;
+  color: gold;
+}
+
+.contact {
+  align-items: center;
+}
+
+p {
+  font-size: 20px;
+  margin: 15px;
+  margin-top: 30px;
+  font-weight: 700;
+  margin-left: 50px;
+  align-self: center;
+  position: absolute;
+  bottom: 15%;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 20px;
+  border-radius: 23px;
+  font-weight: bold;
+  border: solid;
+  border-color: #fff;
+  margin: 15px auto;
+  cursor: pointer;
+  color: #fff;
+  background-color: blue;
+  margin-left: 50px;
+  position: absolute;
+  bottom: 8%;
+}
+button:hover {
+  color: gray;
+}
+
+.bubbles img {
+  width: 50px;
+  animation: bubble 7s linear infinite;
+}
+.bubbles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: space-around;
+  bottom: -70px;
+}
+@keyframes bubble {
+  0% {
+    transform: translate(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+}
+
+.bubbles img:nth-child(1) {
+  animation-delay: 2s;
+  width: 25px;
+}
+.bubbles img:nth-child(2) {
+  animation-delay: 1s;
+}
+.bubbles img:nth-child(3) {
+  animation-delay: 3s;
+  width: 25px;
+}
+.bubbles img:nth-child(4) {
+  animation-delay: 4.5s;
+}
+.bubbles img:nth-child(5) {
+  animation-delay: 3s;
+}
+.bubbles img:nth-child(6) {
+  animation-delay: 6s;
+  width: 20px;
+}
+.bubbles img:nth-child(7) {
+  animation-delay: 7s;
+  width: 35px;
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 40px;
+    margin-left: 2px;
+    margin-bottom: 20px;
+  }
+  .list-items ul li {
+    margin-left: -40px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 2px;
+  }
+  button {
+    font-size: 13px;
+    margin-left: 2px;
+  }
 }
