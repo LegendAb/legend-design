@@ -62,8 +62,14 @@ h1 {
   color: gold;
 }
 
+.video{
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+}
+
 .contact {
-  align-items: center;
+  align-content: center;
 }
 
 p {
@@ -71,11 +77,14 @@ p {
   margin: 15px;
   margin-top: 30px;
   font-weight: 700;
-  margin-left: 50px;
   align-self: center;
   position: absolute;
   bottom: 15%;
   margin-bottom: 20px;
+}
+
+a{
+  align-self: center;
 }
 
 button {
@@ -85,12 +94,10 @@ button {
   font-weight: bold;
   border: solid;
   border-color: #fff;
-  margin: 15px auto;
+  margin: auto;
   cursor: pointer;
   color: #fff;
   background-color: blue;
-  margin-left: 50px;
-  position: absolute;
   bottom: 8%;
 }
 button:hover {
@@ -169,10 +176,10 @@ button:hover {
   p {
     font-size: 14px;
     margin-top: 20px;
-    margin-left: 2px;
   }
+
   button {
+    margin-top: 40px;
     font-size: 13px;
-    margin-left: 2px;
   }
 }
