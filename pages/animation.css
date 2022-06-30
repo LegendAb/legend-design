@@ -61,12 +61,15 @@ h1 {
   text-decoration: none;
   color: gold;
 }
+.list-items{
+  margin-bottom: 10px;
+}
 
-.video{
+/* .video{
   margin-top: 50px;
   height: 100%;
   width: 100%;
-}
+} */
 
 .contact {
   align-content: center;
